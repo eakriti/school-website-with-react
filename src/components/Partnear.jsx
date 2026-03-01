@@ -2,12 +2,12 @@ import React from 'react'
 import { Carousel, Container, Row, Col } from "react-bootstrap";
 
 const images = [
-  "p1.jpg",
-  "p2.jpg",
-  "p3.jpg",
-  "p4.jpg",
-  "p5.jpg",
-  "p6.jpg"
+  "/assets/img/p1.jpg",
+  "/assets/img/p2.jpg",
+  "/assets/img/p3.jpg",
+  "/assets/img/p4.jpg",
+  "/assets/img/p5.jpg",
+  "/assets/img/p6.jpg"
 ];
 
 const Partnear = () => {

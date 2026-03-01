@@ -7,7 +7,7 @@ const Event = () => {
       <Container>
         <Row className="mb-4 align-items-center justify-content-center">
           <Col md={3}>
-            <img src="/src/assets/img/class1.jpg" alt="Image 1" className="img-fluid rounded-3 shadow-sm" />
+            <img src="../../assets/img/class1.jpg" alt="Image 1" className="img-fluid rounded-3 shadow-sm" />
           </Col>
           <Col md={3}>
             <Card className="p-3 h-100 border-0">
@@ -20,7 +20,7 @@ const Event = () => {
             </Card>
           </Col>
           <Col md={3}>
-            <img src="/src/assets/img/class2.jpg" alt="Image 2" className="img-fluid rounded-3 shadow-sm" />
+            <img src="../../assets/img/class2.jpg" alt="Image 2" className="img-fluid rounded-3 shadow-sm" />
           </Col>
         </Row>
 
@@ -37,7 +37,7 @@ const Event = () => {
             </Card>
           </Col>
           <Col md={3}>
-            <img src="/src/assets/img/class3.jpg" alt="Image 3" className="img-fluid rounded-3 shadow-sm" />
+            <img src="../../assets/img/class3.jpg" alt="Image 3" className="img-fluid rounded-3 shadow-sm" />
           </Col>
           <Col md={3}>
             <Card className="p-3  h-100 border-0">

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const cardData = [
   {
     id: 1,
-    image: "./src/assets/img/class1.jpg",
+    image: "../../assets/img/class1.jpg",
     title: "Imagination Class",
     description: "Class Time : 08:00 am - 10:00 am Draticaly novate fuly rarched an plications awesome theme education",
     color: "danger",// 🔴 red
@@ -16,7 +16,7 @@ const cardData = [
   },
   {
     id: 2,
-    image: "./src/assets/img/class2.jpg",
+    image: "../../assets/img/class2.jpg",
     title: "Drawing Class",
     description: "Class Time : 08:00 am - 10:00 am Draticaly novate fuly rarched an plications awesome theme education",
     color: "success", // 🟢 green
@@ -25,7 +25,7 @@ const cardData = [
   },
   {
     id: 3,
-    image: "./src/assets/img/class3.jpg",
+    image: "../../assets/img/class3.jpg",
     title: "Learning Class",
     description: "Class Time : 08:00 am - 10:00 am Draticaly novate fuly rarched an plications awesome theme education",
     color: "warning",

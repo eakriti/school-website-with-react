@@ -11,7 +11,7 @@ const About = () => {
           <Row className="align-items-center">
             <Col lg={6} md={12} sm={12}>
               <div className="about_img">
-                <img src={'./src/assets/img/about.png'} alt="about" className="img-fluid rounded-3" />
+                <img src={'../../assets/img/about.png'} alt="about" className="img-fluid rounded-3" />
               </div>
             </Col>
             <Col lg={6} md={12} sm={12}>

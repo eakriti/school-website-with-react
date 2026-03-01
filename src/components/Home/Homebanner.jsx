@@ -7,12 +7,12 @@ function Homebanner() {
       <section id="Homebanner">
         <Carousel>
           <Carousel.Item interval={1000}>
-            <img src={'./src/assets/img/banner_01.jpg'} alt="banner" className="img-fluid" />
+            <img src ={"../../assets/img/banner_01.jpg"} alt="banner" className="img-fluid" />
             <Carousel.Caption>
               <div className="banner-content">
                 <h3 className="animate__animated animate__fadeInDown">Welcome to KidsAcademy</h3>
                 <h2 className="animate__animated animate__fadeInUp animate__delay-1s">Best For Education</h2>
-                <p className="mb-4 animate__animated animate__fadeIn animate__delay-2s">
+                <p className="mb-4 animate__animated animate__fadeIn animate__delay-2s ">
                   Monotonely principle centered architectures through and standards magnetic metrics whereas cross functional products.
                 </p>
                 <div className="pt-3 animate__animated animate__fadeIn animate__delay-3s">
@@ -23,7 +23,7 @@ function Homebanner() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={500}>
-            <img src={'./src/assets/img/banner_02.jpg'} alt="banner" className="img-fluid" />
+            <img src="../../assets/img/banner_02.jpg" alt="banner" className="img-fluid" />
             <Carousel.Caption>
               <div className="banner-content">
                 <h3 className="animate__animated animate__fadeInDown">Welcome to KidsAcademy</h3>
@@ -39,7 +39,7 @@ function Homebanner() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={'./src/assets/img/banner_03.jpg'} alt="banner" className="img-fluid" />
+            <img src={"../../assets/img/banner_03.jpg"} alt="banner" className="img-fluid" />
             <Carousel.Caption>
               <div className="banner-content">
                 <h3 className="animate__animated animate__fadeInDown">Welcome to KidsAcademy</h3>
