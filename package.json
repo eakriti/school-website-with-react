@@ -9,11 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}
+  
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.1",
     "@fortawesome/fontawesome-svg-core": "^7.0.1",
