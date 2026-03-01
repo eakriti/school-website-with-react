@@ -1,0 +1,123 @@
+/* Home style start */
+/* Homebanner */
+#Homebanner {
+  position: relative;
+}
+
+#Homebanner::before {
+  content: '';
+  background: url(../../assets/img/section_triangle_top.png) repeat-x;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 99;
+}
+
+#Homebanner::after {
+  content: '';
+  background: url(../../assets/img/section_triangle_bottom.png) repeat-x;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 99;
+}
+
+#Homebanner .carousel img {
+  filter: brightness(70%);
+  height: 600px;
+  width: 100%;
+  transform: scale(1.2);
+}
+
+#Homebanner .carousel .carousel-caption {
+  text-align: start;
+  top: 25%;
+  left: 10%;
+}
+
+#Homebanner .carousel .carousel-caption .banner-content {
+  max-width: 600px;
+}
+
+#Homebanner .carousel .carousel-caption h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#Homebanner .carousel .carousel-caption h2 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+#Homebanner .carousel .carousel-caption p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  background-color: #FCB614 !important;
+}
+
+/* Homebanner */
+/* Home style end */
+
+/* Responsive section */
+/* max-width:1200px */
+@media (max-width:1200px) {
+  header {
+    padding: 12px 60px;
+  }
+
+  header .nav-link {
+    padding: 0px 10px !important;
+    font-size: 17px;
+  }
+}
+
+/* max-width:1200px */
+/* max-width:992px */
+@media (max-width:992px) {}
+
+/* max-width:992px */
+/* max-width:768px */
+@media (max-width:768px) {
+  header {
+    padding: 10px 50px;
+  }
+
+  header .nav-link {
+    padding: 0px auto !important;
+    font-size: 16px;
+  }
+
+  #Homebanner .carousel img {
+    transform: scale(1.4);
+  }
+
+}
+
+/* max-width:768px */
+/* max-width:576px */
+@media (max-width:576px) {
+  #Homebanner .carousel img {
+    transform: scale(2, 1.4);
+  }
+}
+
+/* max-width:576px */
+/* max-width:450px */
+@media (max-width:450px) {}
+
+/* max-width:450px */
+/* Responsive section */
