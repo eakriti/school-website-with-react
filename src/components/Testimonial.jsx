@@ -9,7 +9,7 @@ const testimonials = [
     role: "Web Developer",
     feedback:
       "This service is fantastic! It has helped me improve my productivity a lot.",
-    image: "./src/assets/img/t1.jpg",
+    image: "../../assets/img/t1.jpg",
     borderColor: "red",
     nameColor: "red"
   },
@@ -19,7 +19,7 @@ const testimonials = [
     role: "UI/UX Designer",
     feedback:
       "I love the user-friendly interface. The team is very supportive too!",
-    image: "./src/assets/img/t2.jpg",
+    image: "../../assets/img/t2.jpg",
     borderColor: "green",
     nameColor: "green"
 
@@ -32,7 +32,7 @@ const testimonials = [
     role: "Software Engineer",
     feedback:
       "Highly recommended! Great value and excellent support from the company.",
-    image: "./src/assets/img/t3.jpg",
+    image: "../../assets/img/t3.jpg",
     borderColor: "orange",
     nameColor: "orange"
 

@@ -21,7 +21,7 @@ const Gallery = () => {
               <div key={index} className="col-lg-4 col-md-6 mb-4">
                 <div className="gallery-item">
                   <img
-                    src={`./src/assets/img/${img}`}
+                    src={`.././assets/img/${img}`}
                     className="img-fluid rounded-3"
                   />
                   <div className="gallery-overlay">

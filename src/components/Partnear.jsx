@@ -2,12 +2,12 @@ import React from 'react'
 import { Carousel, Container, Row, Col } from "react-bootstrap";
 
 const images = [
-  "/assets/img/p1.jpg",
-  "/assets/img/p2.jpg",
-  "/assets/img/p3.jpg",
-  "/assets/img/p4.jpg",
-  "/assets/img/p5.jpg",
-  "/assets/img/p6.jpg"
+  "p1.jpg",
+  "p2.jpg",
+  "p3.jpg",
+  "p4.jpg",
+  "p5.jpg",
+  "p6.jpg"
 ];
 
 const Partnear = () => {
@@ -36,7 +36,7 @@ const Partnear = () => {
                       {group.map((img, i) => (
                         <Col md={2} sm={6} xs={12} key={i}>
                           <img
-                            src={`./src/assets/img/${img}`}
+                            src={`.././assets/img/${img}`}
                             alt={`Partner ${index * 3 + i + 1}`}
                             className="d-block w-100 rounded-3"
                           />

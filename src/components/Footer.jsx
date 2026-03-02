@@ -33,7 +33,7 @@ const Footer = () => {
             {/* Column 1 */}
             <Col md={3}>
               <img
-                src="./src/assets/img/logo.png"
+                src=".././assets/img/logo.png"
                 alt="Logo"
                 className="img-fluid mb-2"
               />
@@ -64,7 +64,7 @@ const Footer = () => {
               {["class1.jpg", "class2.jpg", "class3.jpg"].map((img, index) => (
                 <div key={index} className="d-flex mt-3">
                   <img
-                    src={`./src/assets/img/${img}`}
+                    src={`.././assets/img/${img}`}
                     className="img-fluid rounded-3 me-3"
                     style={{ width: "80px", height: "80px" }}
                   />
@@ -104,7 +104,7 @@ const Footer = () => {
                 {images.map((img, index) => (
                   <Col md={4} sm={6} xs={12} key={index} className="mb-4">
                     <img
-                      src={`./src/assets/img/${img}`}
+                      src={`.././assets/img/${img}`}
                       alt={`Gallery ${index}`}
                       className="img-fluid rounded-3 shadow-sm"
                     />
